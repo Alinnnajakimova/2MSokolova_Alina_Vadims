@@ -19,3 +19,8 @@ for jautajums, pareiza_atbilde in jautajumi.items():
         print(f"Nepareizi. Pareizā atbilde bija {pareiza_atbilde}.")
 
 print(f"\nTu atbildēji pareizi uz {pareizas} no {len(jautajumi)} jautājumiem.")
+
+git add .
+git commit -m "Pievienots jauns jautājums par rezināšanu"
+git push
+
